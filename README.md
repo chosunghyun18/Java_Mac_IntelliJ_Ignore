@@ -1,0 +1,1 @@
+# Java_Mac_IntelliJ_Ignore
