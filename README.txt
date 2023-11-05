@@ -1,12 +1,39 @@
-# Java_Mac_IntelliJ_Ignore
+### Java Mac IntelliJ ####
 
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-### MAC OS ###
-*.DS_Store
-~/*.DS_Store
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
 
-### JAVA ###
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Package Files #
 *.jar
 *.war
 *.nar
@@ -14,11 +41,17 @@
 *.zip
 *.tar.gz
 *.rar
+
+# Compiled class file
 *.class
 *.log
 
-## CMD
+### MAC OS ###
+*.DS_Store
+~/*.DS_Store
 
+
+########## CMD
 git rm -r --cached .
 git add .
 git commit -m "chore : add .gitignore"
