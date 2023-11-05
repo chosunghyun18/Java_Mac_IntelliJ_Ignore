@@ -33,15 +33,6 @@ out/
 ### VS Code ###
 .vscode/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
 # Compiled class file
 *.class
 *.log
@@ -51,7 +42,8 @@ out/
 ~/*.DS_Store
 
 
+
 ########## CMD
 git rm -r --cached .
 git add .
-git commit -m "chore : add .gitignore"
+git commit -m "chore : apply .gitignore"
